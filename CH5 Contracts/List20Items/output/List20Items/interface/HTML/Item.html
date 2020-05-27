@@ -1,0 +1,12 @@
+<template id="List20Items.Item.Item">
+	<ch5-list id="Item.Item" indexId="idx1" size="20" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 		<ch5-button sendEventOnClick="Item[{{idx1}}].ItemSelect" receiveStateSelected="Item[{{idx1}}].ItemSelected">
+        	</ch5-button>
+	 	<span data-ch5-textcontent="Item[{{idx1}}].ItemText">Label</span>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+</template>

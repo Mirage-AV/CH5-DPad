@@ -1,0 +1,219 @@
+{
+	"name": "List20Items",
+	"timestamp": "2020-05-03 22:01:31.703",
+	"version": "1.0.0.0",
+	"schema_version": 1,
+	"extra_value": "List with 20 items",
+	"signals": {
+		"states": {
+			"boolean": {
+				"1": {
+					"1": "Contact[0].ItemSelected"
+				},
+				"2": {
+					"1": "Contact[1].ItemSelected"
+				},
+				"3": {
+					"1": "Contact[2].ItemSelected"
+				},
+				"4": {
+					"1": "Contact[3].ItemSelected"
+				},
+				"5": {
+					"1": "Contact[4].ItemSelected"
+				},
+				"6": {
+					"1": "Contact[5].ItemSelected"
+				},
+				"7": {
+					"1": "Contact[6].ItemSelected"
+				},
+				"8": {
+					"1": "Contact[7].ItemSelected"
+				},
+				"9": {
+					"1": "Contact[8].ItemSelected"
+				},
+				"10": {
+					"1": "Contact[9].ItemSelected"
+				},
+				"11": {
+					"1": "Contact[10].ItemSelected"
+				},
+				"12": {
+					"1": "Contact[11].ItemSelected"
+				},
+				"13": {
+					"1": "Contact[12].ItemSelected"
+				},
+				"14": {
+					"1": "Contact[13].ItemSelected"
+				},
+				"15": {
+					"1": "Contact[14].ItemSelected"
+				},
+				"16": {
+					"1": "Contact[15].ItemSelected"
+				},
+				"17": {
+					"1": "Contact[16].ItemSelected"
+				},
+				"18": {
+					"1": "Contact[17].ItemSelected"
+				},
+				"19": {
+					"1": "Contact[18].ItemSelected"
+				},
+				"20": {
+					"1": "Contact[19].ItemSelected"
+				}
+			},
+			"string": {
+				"1": {
+					"1": "Contact[0].ItemText"
+				},
+				"2": {
+					"1": "Contact[1].ItemText"
+				},
+				"3": {
+					"1": "Contact[2].ItemText"
+				},
+				"4": {
+					"1": "Contact[3].ItemText"
+				},
+				"5": {
+					"1": "Contact[4].ItemText"
+				},
+				"6": {
+					"1": "Contact[5].ItemText"
+				},
+				"7": {
+					"1": "Contact[6].ItemText"
+				},
+				"8": {
+					"1": "Contact[7].ItemText"
+				},
+				"9": {
+					"1": "Contact[8].ItemText"
+				},
+				"10": {
+					"1": "Contact[9].ItemText"
+				},
+				"11": {
+					"1": "Contact[10].ItemText"
+				},
+				"12": {
+					"1": "Contact[11].ItemText"
+				},
+				"13": {
+					"1": "Contact[12].ItemText"
+				},
+				"14": {
+					"1": "Contact[13].ItemText"
+				},
+				"15": {
+					"1": "Contact[14].ItemText"
+				},
+				"16": {
+					"1": "Contact[15].ItemText"
+				},
+				"17": {
+					"1": "Contact[16].ItemText"
+				},
+				"18": {
+					"1": "Contact[17].ItemText"
+				},
+				"19": {
+					"1": "Contact[18].ItemText"
+				},
+				"20": {
+					"1": "Contact[19].ItemText"
+				}
+			}
+		},
+		"events": {
+			"boolean": {
+				"Contact[0].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 1
+				},
+				"Contact[1].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 2
+				},
+				"Contact[2].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 3
+				},
+				"Contact[3].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 4
+				},
+				"Contact[4].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 5
+				},
+				"Contact[5].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 6
+				},
+				"Contact[6].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 7
+				},
+				"Contact[7].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 8
+				},
+				"Contact[8].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 9
+				},
+				"Contact[9].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 10
+				},
+				"Contact[10].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 11
+				},
+				"Contact[11].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 12
+				},
+				"Contact[12].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 13
+				},
+				"Contact[13].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 14
+				},
+				"Contact[14].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 15
+				},
+				"Contact[15].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 16
+				},
+				"Contact[16].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 17
+				},
+				"Contact[17].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 18
+				},
+				"Contact[18].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 19
+				},
+				"Contact[19].ItemSelect": {
+					"joinId": 1,
+					"smartObjectId": 20
+				}
+			}
+		}
+	}
+}

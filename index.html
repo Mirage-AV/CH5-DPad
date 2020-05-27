@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,  initial-scale=1">
+        <title>Crestron CH5 Basic</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="./node_modules/@crestron/ch5-theme/output/themes/light-theme.css" />
+    </head>
+    <body>
+        <div class="div-cursor">
+            <img class="bg-cursor" src="assets/images/Dpad Rest.png">
+            <div class="div-cursor-buttons">
+                <div> </div>
+                <ch5-button
+                    class="btn-cursor"
+                    customclass="btn-cursor-custom"
+                    type="default"
+                    stretch="both"
+                    shape="circle"
+                    sendeventonclick="AppleTv.Cursor.Up"
+                ></ch5-button>
+                <div> </div>
+                <ch5-button
+                    class="btn-cursor"
+                    customclass="btn-cursor-custom"
+                    type="default"
+                    stretch="both"
+                    shape="circle"
+                    sendeventonclick="AppleTv.Cursor.Left"
+                ></ch5-button>
+                <ch5-button
+                    class="btn-cursor-center"
+                    customclass="btn-cursor-custom"
+                    type="default"
+                    stretch="both"
+                    shape="circle"
+                    sendeventonclick="AppleTv.Cursor.Ok"
+                    label="OK"
+                ></ch5-button>
+                <ch5-button
+                    class="btn-cursor"
+                    customclass="btn-cursor-custom"
+                    type="default"
+                    stretch="both"
+                    shape="circle"
+                    sendeventonclick="AppleTv.Cursor.Right"
+                ></ch5-button>
+                <ch5-button
+                    class="btn-menu"
+                    customclass="btn-menu-custom"
+                    type="default"
+                    stretch="both"
+                    label="Menu"
+                    sendeventonclick="AppleTv.Menu"
+                ></ch5-button>
+                <ch5-button
+                    class="btn-cursor"
+                    customclass="btn-cursor-custom"
+                    type="default"
+                    stretch="both"
+                    shape="circle"
+                    sendeventonclick="AppleTv.Cursor.Down"
+                ></ch5-button>
+                <ch5-button
+                    class="btn-menu"
+                    customclass="btn-menu-custom"
+                    type="default"
+                    stretch="both"
+                    label="Play / Pause"
+                    sendeventonclick="AppleTv.Play"
+                ></ch5-button>
+            </div>
+        </div>
+        <script src="./node_modules/@crestron/ch5-crcomlib/build_bundles/umd/cr-com-lib.js"></script>
+        <!-- Comment 2 lines below before archiving or they will run the emulator on the touchpanel -->
+        <script src="./assets/vendor/service.js"></script>
+        <script src="./assets/vendor/app.js"></script>
+        <!-- *************************************************************************************-->
+    </body>
+</html>

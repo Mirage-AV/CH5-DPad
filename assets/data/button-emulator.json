@@ -1,0 +1,79 @@
+{
+    "cues": [
+      {
+        "type": "boolean",
+        "event": "11",
+        "trigger": true,
+        "actions": [{"state":"11","type":"boolean","logic":"set","value":true },
+                    {"state":"12","type":"boolean","logic":"set","value":false},
+                    {"state":"13","type":"boolean","logic":"set","value":false},
+                    {"state":"14","type":"boolean","logic":"set","value":false},
+                    {"state":"15","type":"boolean","logic":"set","value":false}]
+      },
+      {
+        "type": "boolean",
+        "event": "12",
+        "trigger": true,
+        "actions": [{"state":"11","type":"boolean","logic":"set","value":false },
+                    {"state":"12","type":"boolean","logic":"set","value":true},
+                    {"state":"13","type":"boolean","logic":"set","value":false},
+                    {"state":"14","type":"boolean","logic":"set","value":false},
+                    {"state":"15","type":"boolean","logic":"set","value":false}]
+      },
+      {
+        "type": "boolean",
+        "event": "13",
+        "trigger": true,
+        "actions": [{"state":"11","type":"boolean","logic":"set","value":false },
+                    {"state":"12","type":"boolean","logic":"set","value":false},
+                    {"state":"13","type":"boolean","logic":"set","value":true},
+                    {"state":"14","type":"boolean","logic":"set","value":false},
+                    {"state":"15","type":"boolean","logic":"set","value":false}]
+      },
+      {
+        "type": "boolean",
+        "event": "14",
+        "trigger": true,
+        "actions": [{"state":"11","type":"boolean","logic":"set","value":false },
+                    {"state":"12","type":"boolean","logic":"set","value":false},
+                    {"state":"13","type":"boolean","logic":"set","value":false},
+                    {"state":"14","type":"boolean","logic":"set","value":true},
+                    {"state":"15","type":"boolean","logic":"set","value":false}]
+      },
+      {
+        "type": "boolean",
+        "event": "15",
+        "trigger": true,
+        "actions": [{"state":"11","type":"boolean","logic":"set","value":false },
+                    {"state":"12","type":"boolean","logic":"set","value":false},
+                    {"state":"13","type":"boolean","logic":"set","value":false},
+                    {"state":"14","type":"boolean","logic":"set","value":false},
+                    {"state":"15","type":"boolean","logic":"set","value":true}]
+      },
+      {
+        "type": "boolean",
+        "event": "100",
+        "trigger": true,
+        "actions": [{"state":"100","type":"boolean", "logic": "toggle" }]
+      },
+      {
+        "type": "boolean",
+        "event": "6",
+        "trigger": true,
+        "actions": [{"state":"6", "type": "boolean", "logic": "toggle"}]
+      }
+      
+    ],
+    "onStart": [ { "state": "11", "type":"boolean", "value":true },
+                  {"state":"1", "type":"number", "value": 30000},
+                {"state":"Contact[0].ItemText", "type":"string","value":"List Item 1" },
+                {"state":"Contact[1].ItemText", "type":"string","value":"List Item 2" },
+                {"state":"Contact[2].ItemText", "type":"string","value":"List Item 3" },
+                {"state":"Contact[3].ItemText", "type":"string","value":"List Item 4" },
+                {"state":"Contact[4].ItemText", "type":"string","value":"List Item 5" },
+                {"state":"Contact[5].ItemText", "type":"string","value":"List Item 6" },
+                {"state":"Contact[6].ItemText", "type":"string","value":"List Item 7" },
+                {"state":"Contact[7].ItemText", "type":"string","value":"List Item 8" },
+                {"state":"Contact[8].ItemText", "type":"string","value":"List Item 9" },
+                {"state":"Contact[9].ItemText", "type":"string","value":"List Item 10" }]
+}
